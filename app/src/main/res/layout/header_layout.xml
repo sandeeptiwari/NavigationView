@@ -8,13 +8,15 @@
 
     <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/profile_image"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:civ_border_color="#EEEEEE"
         app:civ_border_width="4dp"
         app:civ_shadow="true"
         app:civ_shadow_radius="10"
-        app:civ_shadow_color="#8BC34A" />
+        app:civ_shadow_color="#8BC34A"
+        android:layout_margin="15dp"
+        android:src="@mipmap/pic"/>
 
     <TextView
         android:layout_width="wrap_content"
