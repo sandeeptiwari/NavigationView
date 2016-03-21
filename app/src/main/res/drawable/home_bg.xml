@@ -2,5 +2,6 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@mipmap/home_sel" android:state_hovered="true"></item>
     <item android:drawable="@mipmap/home_sel" android:state_pressed="true"></item>
+    <item android:state_selected="true" android:drawable="@mipmap/home_sel" />
     <item android:drawable="@mipmap/home"></item>
 </selector>

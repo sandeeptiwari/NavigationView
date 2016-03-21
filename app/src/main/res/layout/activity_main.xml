@@ -25,6 +25,8 @@
         </FrameLayout>
     </LinearLayout>
 
+    <!--app:itemIconTint="@color/PrimaryColor"
+    app:itemTextColor="@color/PrimaryColor"-->
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
         android:layout_width="wrap_content"

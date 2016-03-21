@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/home">
         <item
             android:id="@+id/drawer_home"
             android:checked="true"
             android:icon="@drawable/home_bg"
             android:title="@string/home" />
-
+    </group>
+    <group android:id="@+id/about">
         <item
             android:id="@+id/drawer_about"
             android:icon="@drawable/about_bg"
             android:title="@string/about" />
+    </group>
+    <group android:id="@+id/sett">
         <item
             android:id="@+id/drawer_settings"
             android:icon="@drawable/setting_bg"
